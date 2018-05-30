@@ -1,4 +1,4 @@
-processSentence(name,age,address,hobby) {
+function processSentence(name,age,address,hobby) {
     return "Nama saya " + name + ", umur saya " + age +
     " tahun, alamat saya di " + address + ", dan hobi saya adalah " + hobby
 }
