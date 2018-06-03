@@ -1,3 +1,26 @@
+/*
+
+SKELETON CODE
+
+INPUT array [ x, y, z, a, b, c, d, e, ...]
+VARIABLE arrayHasil
+
+LOOPING FOR until array Length.
+    VARIABLE value
+    IF i = 0 ( pertama kali ), value = cuman tambah depannya aja ( x+y )
+    ELSE IF i = terakhir, value = cuman tambah belakangnya aja ( e+d misalnya) 
+    ELSE normal. ( tambah belakang tambah depan)
+    value di PUSH ke arrayHasil
+
+VARIABLE sumGanjil
+
+LOOPING cek satu satu ArrayHasil apakah ganjil ( %2 === 1 )
+    kalau ganjil angka ditambah ke sumGanjil
+
+OUTPUT sumGanjil
+
+*/
+
 const arrInput = [ 2, 5, 1, 3 ];
 let arrResult = [];
 
